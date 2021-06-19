@@ -23,7 +23,7 @@ public class RelatorioVendasView extends javax.swing.JInternalFrame {
      * Creates new form RelatorioVendasView
      */
     public RelatorioVendasView() {
-        initComponents();
+        initComponents();   
     }
 
     /**
@@ -89,7 +89,7 @@ public class RelatorioVendasView extends javax.swing.JInternalFrame {
         try {
             
         jasperPrint = JasperFillManager.fillReport(src, null,con);
-        } catch (Exception e) {
+        } catch (Exception e) { 
             JOptionPane.showMessageDialog(null,"Erro ao gerar o relatorio \n"+ e );
         } JasperViewer view =new JasperViewer(jasperPrint,false);
         view.setVisible(true);
