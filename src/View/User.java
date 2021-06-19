@@ -22,16 +22,6 @@ public class User extends javax.swing.JInternalFrame {
     public User() {
         super("CADASTRO DE USUÁRIOS");
         initComponents();
-     /*  String i= JOptionPane.showInputDialog("Senha do Gerente ou supervisor");
-       if(!i.equals("1811") ){
-       JOptionPane.showMessageDialog(null,"Erro Senha Invalida ");
-       User registerUser= new User();
-       registerUser.setVisible(false);
-      
-       }else{JOptionPane.showMessageDialog(null,"Sejam Bem Vindo Ao Menu Usuários ");
-       
-       }*/
-       
     }
     private void LimpaForm() {
         txtNome.setText("");

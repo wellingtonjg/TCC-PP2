@@ -29,7 +29,8 @@ public class LoginView extends javax.swing.JFrame {
         EmpresaDAO dao = new EmpresaDAO();
         for(EmpresaBEAN l: dao.read()){
             txtEmpresa.addItem(l);
-        
+       Icone icon = new Icone();
+       icon.InserirImage(this);
         }
     }
 

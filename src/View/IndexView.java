@@ -29,6 +29,8 @@ public class IndexView extends javax.swing.JFrame {
         conecta.conecta();
         pegaUsuario.setText(usuario);
         pegaEmpresa.setText(empresa);
+        Icone icon = new Icone();
+        icon.InserirImage(this);
 
         if (!usuario.equals("mestre")) {
             try {
