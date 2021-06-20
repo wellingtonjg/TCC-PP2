@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import javax.swing.ImageIcon;
 
 /**
- * @author Willian Bueno
+ * @author WELLINGTON
  */
 public class PainelImagemFundo extends javax.swing.JPanel{
     
